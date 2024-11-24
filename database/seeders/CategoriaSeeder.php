@@ -12,8 +12,8 @@ class CategoriaSeeder extends Seeder
     {
         DB::table('categorias')->insert([
             [
-                'nome' => 'Categoria A', // Nome fixo para maior clareza
-                'created_at' => now(),  // Timestamp atual
+                'nome' => 'Categoria A', 
+                'created_at' => now(),  
                 'updated_at' => now(),
             ],
             [

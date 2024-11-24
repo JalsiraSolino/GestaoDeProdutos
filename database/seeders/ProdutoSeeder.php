@@ -11,10 +11,10 @@ class ProdutoSeeder extends Seeder
     {
         DB::table('produtos')->insert([
             [
-                'categoria_id' => 1,              // Categoria ID fixa
-                'nome' => 'Produto A',            // Nome fixo do produto
-                'preco' => 29.99,                 // Preço fixo
-                'estoque' => '20',                // Estoque fixo como string
+                'categoria_id' => 1,             
+                'nome' => 'Produto A',            
+                'preco' => 29.99,                 
+                'estoque' => '20',                
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
